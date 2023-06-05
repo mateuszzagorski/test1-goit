@@ -1,0 +1,29 @@
+{
+  "name": "anemone-flower-shop",
+  "version": "1.1.0",
+  "description": "",
+  "homepage": "https://github.com/MikeL538/Anemone-Flower-Shop",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /Anemone-Flower_Shop/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeL538/Anemone-Flower-Shop.git"
+  },
+  "keywords": [],
+  "author": "MikeL <mikel538.work@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeL538/Anemone-Flower-Shop/issues"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.8.3",
+    "@parcel/transformer-sass": "^2.8.3",
+    "@parcel/transformer-webmanifest": "^2.8.3",
+    "cssnano": "^6.0.1",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.24",
+    "posthtml-include": "^1.7.4"
+  }
+}
